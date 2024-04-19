@@ -20,11 +20,11 @@ Para compilar e executar o programa no Replit, siga os seguintes passos:
 
 ### 📋 Comandos Disponíveis
 
-- **Adicionar Contato**: Adiciona um novo contato à agenda com nome, telefone e email.
-- **Listar Contatos**: Lista todos os contatos presentes na agenda.
-- **Deletar Contato**: Deleta um contato da agenda usando o número de telefone.
-- **Salvar Agenda**: Salva a agenda atual em um arquivo binário.
-- **Carregar Agenda**: Carrega a agenda salva de um arquivo binário.
+- **1-Adicionar Contato**: Adiciona um novo contato à agenda com nome, telefone e email.
+- **2-Listar Contatos**: Lista todos os contatos presentes na agenda.
+- **3-Deletar Contato**: Deleta um contato da agenda usando o número de telefone.
+- **4-Salvar Agenda**: Salva a agenda atual em um arquivo binário(agenda.bin será criado ao salvar).
+- **5-Carregar Agenda**: Carrega a agenda salva de um arquivo binário.
 
 ## 📝 Descrição
 
