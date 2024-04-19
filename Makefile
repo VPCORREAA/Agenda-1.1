@@ -1,16 +1,10 @@
-all: main
+all: agenda
 
-CC = clang
-override CFLAGS += -g -Wno-everything -pthread -lm
+agenda: agenda.c
+	$(CC) agenda.c -o agenda
 
-SRCS = $(shell find . -name '.ccls-cache' -type d -prune -o -type f -name '*.c' -print)
-HEADERS = $(shell find . -name '.ccls-cache' -type d -prune -o -type f -name '*.h' -print)
-
-main: $(SRCS) $(HEADERS)
-	$(CC) $(CFLAGS) $(SRCS) -o "$@"
-
-main-debug: $(SRCS) $(HEADERS)
-	$(CC) $(CFLAGS) -O0 $(SRCS) -o "$@"
+run: agenda
+	./agenda
 
 clean:
-	rm -f main main-debug
+	rm -f agenda
